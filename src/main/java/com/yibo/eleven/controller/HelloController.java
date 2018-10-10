@@ -12,6 +12,6 @@ import java.util.Map;
 public class HelloController {
     @GetMapping("/test/{name}")
     public Map<String, String> test(@PathVariable("name") String name) {
-        return Map.of("hello   ", name);
+        return Map.of("hello  test", name);
     }
 }
